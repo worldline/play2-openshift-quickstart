@@ -3,4 +3,5 @@
 # available.  Otherwise it will execute while your application is stopped
 # before the deploy step.  This script gets executed directly, so it
 # could be python, php, ruby, etc.
-app-root/data/play-2.2.1/play clean compile stage
+cd ${OPENSHIFT_REPO_DIR}
+${OPENSHIFT_DATA_DIR}/play-2.2.1/play clean compile stage
